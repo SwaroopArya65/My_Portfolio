@@ -7,7 +7,7 @@ const Home = lazy(() => import("./pages/Home"));
 function App() {
   return (
     <BrowserRouter>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div className="font-extrabold text-center align-middle">Loading...</div>}>
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
