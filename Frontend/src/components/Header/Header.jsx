@@ -1,10 +1,10 @@
-import TopBar from "./TopBar";
+// import TopBar from "./TopBar";
 import MainNav from "./MainNav";
 
 const Header = () => {
   return (
     <header className="fixed w-full z-20 top-0 start-0">
-      <TopBar />
+      {/* <TopBar /> */}
       <MainNav />
     </header>
   );
