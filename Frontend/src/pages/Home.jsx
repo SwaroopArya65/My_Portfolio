@@ -1,5 +1,6 @@
 import Header from "../components/Header/Header";
 import { motion } from "framer-motion";
+import Hero from "../components/Hero";
 
 const Home = () => {
   return (
@@ -13,14 +14,9 @@ const Home = () => {
         transition={{ duration: 0.6, ease: "easeOut" }}
       >
         {/* Home page sections */}
-        <section className="max-w-7xl mx-auto px-4">
-          <h1 className="text-3xl font-bold text-heading">
-            Welcome to My Portfolio
-          </h1>
-          <p className="mt-4 text-body">
-            Building modern, fast, and scalable web applications.
-          </p>
-        </section>
+        <main className="max-w-7xl mx-auto px-4">
+          <Hero/>
+        </main>
       </motion.main>
     </>
   );

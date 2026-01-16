@@ -11,12 +11,12 @@ export default {
         secondary: '#111827', // Slate Dark, Perfect for project cards and sections
         primary_Accent: '#38BDF8', // Great for links, buttons, active states, Main Highlight Color
         secondary_Accent: '#A78BFA', // Optional, very limited use, Use only for hover effects or small highlights
-        primary_Text: '#0D9488', // Pure white, clear and redable text
+        primary_Text: '#0036df', // Pure white, clear and redable text
         secondary_Text: '#94A3B8', // Muted Gray, For descriptions, subtitles, meta text
         background_color: '#F0FDF4', // body color
       },
       fontFamily: {
-        inter: ["Inter", "sans-serif"],
+        unna: ["Unna", "serif"],
       },
     },
   },
