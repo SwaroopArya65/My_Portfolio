@@ -22,7 +22,7 @@ function Hero() {
 
     return (
         <section>
-            <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative">
+            <div className="py-4 px-4 mx-auto max-w-screen-xl text-center lg:py-8 z-10 relative">
                 <a href="#" className="inline-flex justify-between items-center max-w-xl py-1 px-1 pe-4 mb-7 text-sm text-blue-700 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800">
                     <span className="text-xs bg-blue-600 rounded-full text-white px-4 py-1.5 me-3">New</span> <Marquee className="text-sm font-medium tracking-wider" direction="left" speed={50} pauseOnHover={true} gradient={false}>
                         <ul className='flex gap-x-2 font-bold'>
@@ -36,8 +36,8 @@ function Hero() {
                     </svg>
                 </a>
 
-                <h1 className="mb-4 text-4xl font-extrabold md:text-6xl lg:text-[5.2rem] font-unna text-transparent bg-clip-text bg-gradient-to-r to-blue-900 from-emerald-600"><span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-blue-900 font-unna font-medium">Simple Digital Solutions, <br /> </span> Big Impact for Your Growth.</h1>
-                <p className="mb-8 text-lg font-medium text-gray-500 md:text-[1.3rem] lg:text-xl sm:px-16 lg:px-48 dark:text-[#12456c] font-unna tracking-wider">Learn coding, build real skills and grow your digital presence with practical lessons and easy-to-follow guides.</p>
+                <h1 className="mb-4 text-4xl font-extrabold md:text-6xl lg:text-[5.2rem] font-unna text-transparent bg-clip-text bg-gradient-to-r to-blue-900 from-emerald-600"><span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-blue-900 font-unna font-medium text-2xl">Hello, I’m Arya Swaroop, <br /> </span> Java & MERN Developer <br/> Building Modern. Scalable. Web.</h1>
+                <p className="mb-8 text-lg font-medium text-gray-500 md:text-[1.3rem] lg:text-xl sm:px-16 lg:px-48 dark:text-[#12456c] font-unna tracking-wider">Java Full-Stack Developer crafting clean, cloud-native web solutions with modern frameworks and robust backend architectures.</p>
                 <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center items-center sm:space-y-0 md:space-x-4">
                     <Link
                         to="#"
